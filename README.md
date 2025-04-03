@@ -1,59 +1,62 @@
-# 101427560LabTest2Comp3133
+# 101427560-lab-test2-comp3133
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+This Angular application was developed as part of **Lab Test 2** for the course **COMP 3133 - Full Stack Development II** at George Brown College.
 
-## Development server
+The app uses the **Harry Potter API** to display character details, allowing users to filter by Hogwarts houses and view in-depth information about each character.
 
-To start a local development server, run:
+---
+
+## 🔧 Features
+
+- ✅ Display full list of characters from the API
+- ✅ Filter characters by house (e.g., Gryffindor, Slytherin, etc.)
+- ✅ View detailed info of any character including:
+  - Name
+  - House
+  - Actor
+  - Species
+  - Wand info (wood, core, length)
+- ✅ Styled with Angular Material components
+- ✅ Deployed live on Vercel
+
+---
+
+## 🔗 Live Demo
+
+[Click here to view the app](https://101427560-lab-test2-comp3133.vercel.app/)
+
+---
+
+## 📸 Screenshots
+
+### 🧙 Character List View
+
+![Character List](screenshots/character-list.png)
+
+### 🏠 Filter by House
+
+![Filter View](screenshots/filter-by-house.png)
+
+### 🧾 Character Details Page
+
+![Character Details](screenshots/character-details.png)
+
+---
+
+## ⚙️ Tech Stack
+
+- Angular 17 (Standalone App)
+- Angular Material
+- TypeScript
+- Vercel (Hosting)
+- Harry Potter API (https://hp-api.onrender.com)
+
+---
+
+## 📁 How to Run Locally
 
 ```bash
+git clone https://github.com/Bhavyavaghela/101427560-lab-test2-comp3133.git
+cd 101427560-lab-test2-comp3133
+npm install
 ng serve
-```
-
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
